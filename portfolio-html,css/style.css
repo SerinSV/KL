@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', Trebuchet MS , sans-serif;
+    text-decoration: none;
+}
+.contanier{
+    width: 100%;
+    height: 100vh;
+    background-color: #caaaf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contanier .hero{
+    position: relative;
+    height: 85vh;
+    width: 75%;
+    background: rgba(87, 81, 92, 0.1);
+    border: 3px solid #4e3961;
+    border-radius: 20px;
+    padding: 0 40px 0 80px;
+}
+.contanier .hero{
+    margin-top: px;
+    justify-content: space-between  
+}
+.hero nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+.hero nav .nav-links a {
+    align-items: flex-end;
+    color: #4e3961;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.hero .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+.hero .content .div-text{
+    width: 40%;
+}
+.hero .content .div-text h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #4e3961;
+}
+.hero .content .div-text h4{
+    color: #4e3961;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.hero .content .div-text p{
+    color: #4e3961;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.hero .content .div-img{
+    width: 20%s;
+}
+.hero .content .div-img img{
+    width: 80%;
+    image-rendering: crisp-edges;
+}
+.soc-link{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+.soc-link a i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #4e3961;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+.education{
+    padding-top: 30px;
+    background-color: #caaaf0;
+    background-position: top center;
+    color: #4e3961;
+    vertical-align: middle;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px;
+    font-family:Trebuchet MS , sans-serif ;
+    padding-bottom: 40%;
+
+
+}
+.education h3{
+    text-align: left;
+    padding-left: 30px;
+    
+    
+}
+.education h5{
+    text-align: left;
+    padding-left: 50px;
+    
+    
+}
+.education p{
+    text-align: left;
+    padding-left: 70px;
+}
+.education ul{
+    text-align: left;
+    padding-left: 70px;
+}
