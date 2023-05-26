@@ -1,0 +1,10 @@
+class StudentInformationException:
+    SIE001 = "Exception in create_student_information: "
+    SIE002 = "Exception in get_student: "
+    SIE003 = "Exception in to_delete_a_student: "
+    SIE004 = "Exception in update_courses: "
+    SIE005 = "Exception in find_with_name: "
+    SIE006 = "Exception in add_courses: "
+    SIE007 = "Exception in get_all_students: "
+    SIE008 = "Exception in find_with_course: "
+    SIE009 = "Exception in mongo_aggregation: "
